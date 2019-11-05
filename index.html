@@ -1,0 +1,165 @@
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <link rel="stylesheet" href="resources/styles.css"></link>
+    <script src="resources/municipalitiesData.js"></script>
+    <script type="text/javascript">
+
+        function createTemplateNode(municipality) {
+
+            const isZuerichOrWinterthur = municipality.id == "171" || municipality.id == "158";
+            const asPercent = (n, d = 1) => {
+                return (n * 100).toLocaleString(undefined, {minimumFractionDigits: d}) + "%";
+            }
+            const asNumber = (n, d = 0) => n.toLocaleString(undefined, {minimumFractionDigits: d});
+            const concatWithLinebreak = (l) => l.reduce((a, b) => a + b + "<br/>", "");
+
+            const foreignersTooltip = (m) => concatWithLinebreak([2014, 2015, 2016, 2017, 2018].map(y => {
+                return `${y}: ${asPercent(m.foreigners[y])}`;
+            }));
+            const populationTooltip = (m) => concatWithLinebreak([2014, 2015, 2016, 2017, 2018].map(y => {
+                return `${y}: ${asNumber(m.population[y])}`;
+            }));
+            const svpVotersTooltip = (m) => concatWithLinebreak([2011, 2015, 2019].map(y => {
+                return `${y}: ${asPercent(m.svpVoters[y])}`;
+            }));
+            const socialSupportTooltip = (m) => concatWithLinebreak([2014, 2015, 2016, 2017].map(y => {
+                return `${y}: ${asPercent(m.socialSupport[y])}`;
+            }));
+            const emptyApartmentsTooltip = (m) => concatWithLinebreak([2014, 2015, 2016, 2017, 2018].map(y => {
+                return `${y}: ${asPercent(m.emptyApartments[y], 2)}`;
+            }));
+            const incomeTooltip = (m) => concatWithLinebreak([2014, 2015, 2016, 2017, 2018].map(y => {
+                return `${y}: CHF ${asNumber(m.income[y])}`;
+            }));
+
+            const socialIndexTooltip = (m) => concatWithLinebreak([2015, 2016, 2017, 2018].map(y => {
+                return `${y}: ${asNumber(m.schoolInfo[y].socialIndex, 1)}`;
+            }));
+            const socialIndexZuerichOrWinterthurTooltip = (m, n) => concatWithLinebreak([2015, 2016, 2017, 2018].map(y => {
+                return `${y}: ${asNumber(m.schoolInfo[y].filter(s => s.name == n)[0].socialIndex, 1)}`;
+            }));
+            const socialIndex = (m) => {
+                const explanation = "Social index is a combination of these 3 numbers:\n" +
+                    "1. Share of foreign students (not included are students from Germany, Austria and Lichtenstein)\n" +
+                    "2. Share of students on social welfare\n" +
+                    "3. Share of parents who are recieveing govermental support because of their children and whose income is below the cantonal median of parents who are recieveing govermental support because of their children ";
+                return isZuerichOrWinterthur ?
+                    `<span class="row" title="${explanation}"><b>Social index</b></span><br/>` +
+                    concatWithLinebreak(m.schoolInfo[2018].map(s => {
+                        return `<span class="row">${s.name}</span><span class="value">
+                                ${asNumber(s.socialIndex, 1)}<span class="tooltip">${socialIndexZuerichOrWinterthurTooltip(m, s.name)}</span></span>`
+                    }))
+                    :
+                    `<span class="row" title="${explanation}">Social index</span><span class="value">${asNumber(m.schoolInfo["2018"].socialIndex, 1)}
+                    <span class="tooltip">${socialIndexTooltip(m)}</span>
+                    </span><br/> `;
+            };
+
+            const proceededToGymnasiumTooltip = (m) => concatWithLinebreak([2015, 2016, 2017, 2018].map(y => {
+                return `${y}: ${asPercent(m.schoolInfo[y].proceededToGymnasium)}`;
+            }));
+            const proceededToGymnasiumZuerichOrWinterthurTooltip = (m, n) => concatWithLinebreak([2015, 2016, 2017, 2018].map(y => {
+                return `${y}: ${asPercent(m.schoolInfo[y].filter(s => s.name == n)[0].proceededToGymnasium)}`;
+            }));
+            const proceededToGymnasium = (m) => {
+                const explanation = "Share of students who after finishing primary or secondary school proceeded to gymnasium";
+                return isZuerichOrWinterthur ?
+                    `<span class="row" title="${explanation}"><b>Share of gymnasium admissions</b></span><br/>` +
+                    concatWithLinebreak(m.schoolInfo[2018].map(s => {
+                        return `<span class="row">${s.name}</span><span class="value">
+                                ${asPercent(s.proceededToGymnasium)}<span class="tooltip">${proceededToGymnasiumZuerichOrWinterthurTooltip(m, s.name)}</span></span>`
+                    }))
+                    :
+                    `<span class="row" title="${explanation}">Share of gymnasium admissions</span><span class="value">${asPercent(m.schoolInfo["2018"].proceededToGymnasium)}
+                    <span class="tooltip">${proceededToGymnasiumTooltip(m)}</span>
+                    </span><br/>`;
+            };
+
+            const template = document.createElement('div');
+            template.innerHTML =
+                `<span class="row"><h3 class="row">${municipality.name}</h3></span>
+                <form>
+                    <fieldset>
+                        <legend><img src="resources/social.png" title="Social"></legend>
+                        <span class="row">Population</span><span class="value">${asNumber(municipality.population["2018"])}
+                            <span class="tooltip">${populationTooltip(municipality)}</span>
+                        </span><br/>
+                        <span class="row">Share of foreign nationals</span>
+                        <span class="value">${asPercent(municipality.foreigners["2018"])}
+                            <span class="tooltip">${foreignersTooltip(municipality)}</span>
+                        </span><br/>
+                        <span class="row">Share of SVP voters</span><span class="value">${asPercent(municipality.svpVoters["2019"])}
+                            <span class="tooltip">${svpVotersTooltip(municipality)}</span>
+                        </span><br/>
+                        <span class="row">Crime rate</span><span class="value">n/a</span><br/>
+                    </fieldset>
+                </form>
+                <form>
+                    <fieldset>
+                        <legend><img src="resources/financials.png"  title="Financials"></legend>
+                        <span class="row">Share of welfare recipients</span><span class="value">${asPercent(municipality.socialSupport["2017"])}
+                            <span class="tooltip">${socialSupportTooltip(municipality)}</span>
+                        </span><br/>
+                        <span class="row">Share of empty apartments</span><span class="value">${asPercent(municipality.emptyApartments["2018"], 2)}
+                            <span class="tooltip">${emptyApartmentsTooltip(municipality)}</span>
+                        </span><br/>
+                        <span class="row">Avarage taxable income</span><span class="value">CHF ${asNumber(municipality.income["2018"])}
+                            <span class="tooltip">${incomeTooltip(municipality)}</span>
+                        </span><br/>
+                    </fieldset>
+                </form>
+                <form>
+                    <fieldset>
+                        <legend><img src="resources/school.png" title="School information"></legend>
+                        ${socialIndex(municipality)}
+                        ${proceededToGymnasium(municipality)}
+                    </fieldset>
+                </form>`;
+            return template;
+        }
+
+        function recreateLegend(id) {
+            const data = municipalitiesData.filter(d => d.id == id)[0];
+            const legend = document.getElementById("legend");
+            while (legend.hasChildNodes()) {
+                legend.removeChild(legend.lastChild);
+            }
+            legend.appendChild(createTemplateNode(data));
+        }
+    </script>
+
+</head>
+<body>
+<span id="title">Where to live in canton of Zürich?</span>
+<div id="container">
+    <div>
+        <object id="svgMap" data="resources/map.svg" type="image/svg+xml"></object>
+    </div>
+    <div id="legend"></div>
+</div>
+
+<script>
+    document.getElementById('svgMap').addEventListener("load", function () {
+        const municipalities = this.contentDocument.getElementById('municipalities');
+        municipalities.onclick = function (evt) {
+            if (evt.target.getAttribute('id') && !isNaN(evt.target.getAttribute('id'))) {
+                recreateLegend(evt.target.getAttribute('id'));
+            }
+        };
+        municipalities.onmouseover = function (evt) {
+            if (evt.target.getAttribute('id')) {
+                evt.target.setAttribute('opacity', '0.5');
+            }
+        };
+        municipalities.onmouseout = function (evt) {
+            if (evt.target.getAttribute('id')) {
+                evt.target.setAttribute('opacity', '1');
+            }
+        };
+    });
+
+    recreateLegend("171");
+</script>
+</body>
+</html>
