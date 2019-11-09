@@ -48,9 +48,9 @@
             }));
             const socialIndex = (m) => {
                 const explanation = "Social index is a combination of these 3 numbers:\n" +
-                    "1. Share of foreign students (not included are students from Germany, Austria and Lichtenstein)\n" +
+                    "1. Share of foreign students (students from Germany, Austria and Lichtenstein are accounted for as Swiss)\n" +
                     "2. Share of students on social welfare\n" +
-                    "3. Share of parents who are recieveing govermental support because of their children and whose income is below the cantonal median of parents who are recieveing govermental support because of their children ";
+                    "3. Share of parents recieveing govermental support due to their children and whose income is below the cantonal median of parents recieveing govermental support due to their children ";
                 return isZuerichOrWinterthur(m) ?
                     `<span class="row"><b>Social index</b></span><img src="resources/questionMark.png" class="question-mark" title="${explanation}"/><br/>` +
                     concatWithLinebreak(m.schoolInfo[2018].map(s => {
