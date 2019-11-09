@@ -41,6 +41,10 @@ const municipalitiesData = [
             "2015": 0.568,
             "2019": 0.565
         },
+        "crimeRate": {
+            "2013": 46.3,
+            "2014": 26
+        },
         "schoolInfo": {
             "2015": {
                 "socialIndex": 102.4,
@@ -101,6 +105,10 @@ const municipalitiesData = [
             "2011": 0.321,
             "2015": 0.334,
             "2019": 0.285
+        },
+        "crimeRate": {
+            "2013": 48.5,
+            "2014": 44.6
         },
         "schoolInfo": {
             "2015": {
@@ -163,6 +171,10 @@ const municipalitiesData = [
             "2015": 0.391,
             "2019": 0.355
         },
+        "crimeRate": {
+            "2013": 24.2,
+            "2014": 18.6
+        },
         "schoolInfo": {
             "2015": {
                 "socialIndex": 103.8,
@@ -223,6 +235,10 @@ const municipalitiesData = [
             "2011": 0.287,
             "2015": 0.309,
             "2019": 0.304
+        },
+        "crimeRate": {
+            "2013": 23.5,
+            "2014": 35.5
         },
         "schoolInfo": {
             "2015": {
@@ -285,6 +301,10 @@ const municipalitiesData = [
             "2015": 0.338,
             "2019": 0.303
         },
+        "crimeRate": {
+            "2013": 62,
+            "2014": 64
+        },
         "schoolInfo": {
             "2015": {
                 "socialIndex": 109.2,
@@ -345,6 +365,10 @@ const municipalitiesData = [
             "2011": 0.496,
             "2015": 0.528,
             "2019": 0.592
+        },
+        "crimeRate": {
+            "2013": 9.7,
+            "2014": 7.8
         },
         "schoolInfo": {
             "2015": {
@@ -407,6 +431,10 @@ const municipalitiesData = [
             "2015": 0.341,
             "2019": 0.312
         },
+        "crimeRate": {
+            "2013": 62.5,
+            "2014": 41.4
+        },
         "schoolInfo": {
             "2015": {
                 "socialIndex": 102.3,
@@ -467,6 +495,10 @@ const municipalitiesData = [
             "2011": 0.346,
             "2015": 0.354,
             "2019": 0.314
+        },
+        "crimeRate": {
+            "2013": 40.1,
+            "2014": 44.7
         },
         "schoolInfo": {
             "2015": {
@@ -529,6 +561,10 @@ const municipalitiesData = [
             "2015": 0.543,
             "2019": 0.546
         },
+        "crimeRate": {
+            "2013": 22.6,
+            "2014": 36.1
+        },
         "schoolInfo": {
             "2015": {
                 "socialIndex": 102.9,
@@ -589,6 +625,10 @@ const municipalitiesData = [
             "2011": 0.397,
             "2015": 0.433,
             "2019": 0.427
+        },
+        "crimeRate": {
+            "2013": 18.6,
+            "2014": 21
         },
         "schoolInfo": {
             "2015": {
@@ -651,6 +691,10 @@ const municipalitiesData = [
             "2015": 0.371,
             "2019": 0.329
         },
+        "crimeRate": {
+            "2013": 43.4,
+            "2014": 40.1
+        },
         "schoolInfo": {
             "2015": {
                 "socialIndex": 106,
@@ -711,6 +755,10 @@ const municipalitiesData = [
             "2011": 0.426,
             "2015": 0.456,
             "2019": 0.442
+        },
+        "crimeRate": {
+            "2013": 45,
+            "2014": 32
         },
         "schoolInfo": {
             "2015": {
@@ -773,6 +821,10 @@ const municipalitiesData = [
             "2015": 0.438,
             "2019": 0.467
         },
+        "crimeRate": {
+            "2013": 48.6,
+            "2014": 15.7
+        },
         "schoolInfo": {
             "2015": {
                 "socialIndex": 103.7,
@@ -833,6 +885,10 @@ const municipalitiesData = [
             "2011": 0.512,
             "2015": 0.501,
             "2019": 0.527
+        },
+        "crimeRate": {
+            "2013": 8.5,
+            "2014": 15.6
         },
         "schoolInfo": {
             "2015": {
@@ -895,6 +951,10 @@ const municipalitiesData = [
             "2015": 0.371,
             "2019": 0.327
         },
+        "crimeRate": {
+            "2013": 51.1,
+            "2014": 58.2
+        },
         "schoolInfo": {
             "2015": {
                 "socialIndex": 105,
@@ -955,6 +1015,10 @@ const municipalitiesData = [
             "2011": 0.271,
             "2015": 0.291,
             "2019": 0.261
+        },
+        "crimeRate": {
+            "2013": 35.2,
+            "2014": 26.8
         },
         "schoolInfo": {
             "2015": {
@@ -1017,6 +1081,10 @@ const municipalitiesData = [
             "2015": 0.402,
             "2019": 0.381
         },
+        "crimeRate": {
+            "2013": 21.2,
+            "2014": 14.5
+        },
         "schoolInfo": {
             "2015": {
                 "socialIndex": 104.5,
@@ -1077,6 +1145,10 @@ const municipalitiesData = [
             "2011": 0.356,
             "2015": 0.376,
             "2019": 0.35
+        },
+        "crimeRate": {
+            "2013": 21.1,
+            "2014": 28.9
         },
         "schoolInfo": {
             "2015": {
@@ -1139,6 +1211,10 @@ const municipalitiesData = [
             "2015": 0.361,
             "2019": 0.316
         },
+        "crimeRate": {
+            "2013": 29.2,
+            "2014": 31.6
+        },
         "schoolInfo": {
             "2015": {
                 "socialIndex": 101.5,
@@ -1199,6 +1275,10 @@ const municipalitiesData = [
             "2011": 0.495,
             "2015": 0.514,
             "2019": 0.486
+        },
+        "crimeRate": {
+            "2013": 3.3,
+            "2014": 5.4
         },
         "schoolInfo": {
             "2015": {
@@ -1261,6 +1341,10 @@ const municipalitiesData = [
             "2015": 0.474,
             "2019": 0.43
         },
+        "crimeRate": {
+            "2013": 54.7,
+            "2014": 62.7
+        },
         "schoolInfo": {
             "2015": {
                 "socialIndex": 110.2,
@@ -1321,6 +1405,10 @@ const municipalitiesData = [
             "2011": 0.343,
             "2015": 0.355,
             "2019": 0.308
+        },
+        "crimeRate": {
+            "2013": 84,
+            "2014": 85.8
         },
         "schoolInfo": {
             "2015": {
@@ -1383,6 +1471,10 @@ const municipalitiesData = [
             "2015": 0.321,
             "2019": 0.303
         },
+        "crimeRate": {
+            "2013": 41.3,
+            "2014": 34.3
+        },
         "schoolInfo": {
             "2015": {
                 "socialIndex": 102.2,
@@ -1443,6 +1535,10 @@ const municipalitiesData = [
             "2011": 0.416,
             "2015": 0.42,
             "2019": 0.37
+        },
+        "crimeRate": {
+            "2013": 29.4,
+            "2014": 18.4
         },
         "schoolInfo": {
             "2015": {
@@ -1505,6 +1601,10 @@ const municipalitiesData = [
             "2015": 0.483,
             "2019": 0.469
         },
+        "crimeRate": {
+            "2013": 41.5,
+            "2014": 71.4
+        },
         "schoolInfo": {
             "2015": {
                 "socialIndex": 111.9,
@@ -1565,6 +1665,10 @@ const municipalitiesData = [
             "2011": 0.435,
             "2015": 0.471,
             "2019": 0.412
+        },
+        "crimeRate": {
+            "2013": 26.5,
+            "2014": 38.9
         },
         "schoolInfo": {
             "2015": {
@@ -1627,6 +1731,10 @@ const municipalitiesData = [
             "2015": 0.4,
             "2019": 0.367
         },
+        "crimeRate": {
+            "2013": 22.7,
+            "2014": 45
+        },
         "schoolInfo": {
             "2015": {
                 "socialIndex": 102,
@@ -1687,6 +1795,10 @@ const municipalitiesData = [
             "2011": 0.378,
             "2015": 0.413,
             "2019": 0.373
+        },
+        "crimeRate": {
+            "2013": 61.1,
+            "2014": 63.7
         },
         "schoolInfo": {
             "2015": {
@@ -1749,6 +1861,10 @@ const municipalitiesData = [
             "2015": 0.349,
             "2019": 0.327
         },
+        "crimeRate": {
+            "2013": 109.3,
+            "2014": 71.9
+        },
         "schoolInfo": {
             "2015": {
                 "socialIndex": 119.7,
@@ -1809,6 +1925,10 @@ const municipalitiesData = [
             "2011": 0.307,
             "2015": 0.32,
             "2019": 0.286
+        },
+        "crimeRate": {
+            "2013": 86.1,
+            "2014": 75.8
         },
         "schoolInfo": {
             "2015": {
@@ -1871,6 +1991,10 @@ const municipalitiesData = [
             "2015": 0.463,
             "2019": 0.447
         },
+        "crimeRate": {
+            "2013": 20.7,
+            "2014": 30.7
+        },
         "schoolInfo": {
             "2015": {
                 "socialIndex": 103,
@@ -1931,6 +2055,10 @@ const municipalitiesData = [
             "2011": 0.504,
             "2015": 0.492,
             "2019": 0.489
+        },
+        "crimeRate": {
+            "2013": 6.3,
+            "2014": 27.4
         },
         "schoolInfo": {
             "2015": {
@@ -1993,6 +2121,10 @@ const municipalitiesData = [
             "2015": 0.367,
             "2019": 0.312
         },
+        "crimeRate": {
+            "2013": 74.7,
+            "2014": 73.3
+        },
         "schoolInfo": {
             "2015": {
                 "socialIndex": 109,
@@ -2053,6 +2185,10 @@ const municipalitiesData = [
             "2011": 0.378,
             "2015": 0.383,
             "2019": 0.364
+        },
+        "crimeRate": {
+            "2013": 22.2,
+            "2014": 25.5
         },
         "schoolInfo": {
             "2015": {
@@ -2115,6 +2251,10 @@ const municipalitiesData = [
             "2015": 0.361,
             "2019": 0.337
         },
+        "crimeRate": {
+            "2013": 36.1,
+            "2014": 25.8
+        },
         "schoolInfo": {
             "2015": {
                 "socialIndex": 103.5,
@@ -2175,6 +2315,10 @@ const municipalitiesData = [
             "2011": 0.339,
             "2015": 0.319,
             "2019": 0.305
+        },
+        "crimeRate": {
+            "2013": 31.6,
+            "2014": 35.2
         },
         "schoolInfo": {
             "2015": {
@@ -2237,6 +2381,10 @@ const municipalitiesData = [
             "2015": 0.378,
             "2019": 0.369
         },
+        "crimeRate": {
+            "2013": 31.7,
+            "2014": 34
+        },
         "schoolInfo": {
             "2015": {
                 "socialIndex": 105.6,
@@ -2297,6 +2445,10 @@ const municipalitiesData = [
             "2011": 0.407,
             "2015": 0.409,
             "2019": 0.466
+        },
+        "crimeRate": {
+            "2013": 43.7,
+            "2014": 22.1
         },
         "schoolInfo": {
             "2015": {
@@ -2359,6 +2511,10 @@ const municipalitiesData = [
             "2015": 0.382,
             "2019": 0.315
         },
+        "crimeRate": {
+            "2013": 30.7,
+            "2014": 32.4
+        },
         "schoolInfo": {
             "2015": {
                 "socialIndex": 105.2,
@@ -2419,6 +2575,10 @@ const municipalitiesData = [
             "2011": 0.395,
             "2015": 0.409,
             "2019": 0.411
+        },
+        "crimeRate": {
+            "2013": 58.2,
+            "2014": 50.9
         },
         "schoolInfo": {
             "2015": {
@@ -2481,6 +2641,10 @@ const municipalitiesData = [
             "2015": 0.286,
             "2019": 0.253
         },
+        "crimeRate": {
+            "2013": 48.3,
+            "2014": 38
+        },
         "schoolInfo": {
             "2015": {
                 "socialIndex": 100.8,
@@ -2541,6 +2705,10 @@ const municipalitiesData = [
             "2011": 0.28,
             "2015": 0.301,
             "2019": 0.275
+        },
+        "crimeRate": {
+            "2013": 24.3,
+            "2014": 39.3
         },
         "schoolInfo": {
             "2015": {
@@ -2603,6 +2771,10 @@ const municipalitiesData = [
             "2015": 0.39,
             "2019": 0.339
         },
+        "crimeRate": {
+            "2013": 55.3,
+            "2014": 36.4
+        },
         "schoolInfo": {
             "2015": {
                 "socialIndex": 104.7,
@@ -2663,6 +2835,10 @@ const municipalitiesData = [
             "2011": 0.328,
             "2015": 0.366,
             "2019": 0.315
+        },
+        "crimeRate": {
+            "2013": 34.1,
+            "2014": 29.5
         },
         "schoolInfo": {
             "2015": {
@@ -2725,6 +2901,10 @@ const municipalitiesData = [
             "2015": 0.559,
             "2019": 0.552
         },
+        "crimeRate": {
+            "2013": 34.3,
+            "2014": 23.6
+        },
         "schoolInfo": {
             "2015": {
                 "socialIndex": 106.2,
@@ -2785,6 +2965,10 @@ const municipalitiesData = [
             "2011": 0.527,
             "2015": 0.51,
             "2019": 0.483
+        },
+        "crimeRate": {
+            "2013": 55.6,
+            "2014": 30.3
         },
         "schoolInfo": {
             "2015": {
@@ -2847,6 +3031,10 @@ const municipalitiesData = [
             "2015": 0.28,
             "2019": 0.251
         },
+        "crimeRate": {
+            "2013": 21.9,
+            "2014": 24.9
+        },
         "schoolInfo": {
             "2015": {
                 "socialIndex": 102.5,
@@ -2907,6 +3095,10 @@ const municipalitiesData = [
             "2011": 0.344,
             "2015": 0.376,
             "2019": 0.377
+        },
+        "crimeRate": {
+            "2013": 41.9,
+            "2014": 20.5
         },
         "schoolInfo": {
             "2015": {
@@ -2969,6 +3161,10 @@ const municipalitiesData = [
             "2015": 0.453,
             "2019": 0.413
         },
+        "crimeRate": {
+            "2013": 32.2,
+            "2014": 26.4
+        },
         "schoolInfo": {
             "2015": {
                 "socialIndex": 108.8,
@@ -3029,6 +3225,10 @@ const municipalitiesData = [
             "2011": 0.423,
             "2015": 0.451,
             "2019": 0.419
+        },
+        "crimeRate": {
+            "2013": 30.3,
+            "2014": 34
         },
         "schoolInfo": {
             "2015": {
@@ -3091,6 +3291,10 @@ const municipalitiesData = [
             "2015": 0.387,
             "2019": 0.361
         },
+        "crimeRate": {
+            "2013": 22,
+            "2014": 20
+        },
         "schoolInfo": {
             "2015": {
                 "socialIndex": 104.3,
@@ -3151,6 +3355,10 @@ const municipalitiesData = [
             "2011": 0.246,
             "2015": 0.261,
             "2019": 0.237
+        },
+        "crimeRate": {
+            "2013": 27.6,
+            "2014": 21.3
         },
         "schoolInfo": {
             "2015": {
@@ -3213,6 +3421,10 @@ const municipalitiesData = [
             "2015": 0.432,
             "2019": 0.365
         },
+        "crimeRate": {
+            "2013": 19.2,
+            "2014": 18.6
+        },
         "schoolInfo": {
             "2015": {
                 "socialIndex": 102.9,
@@ -3273,6 +3485,10 @@ const municipalitiesData = [
             "2011": 0.575,
             "2015": 0.613,
             "2019": 0.645
+        },
+        "crimeRate": {
+            "2013": 19,
+            "2014": 31.3
         },
         "schoolInfo": {
             "2015": {
@@ -3335,6 +3551,10 @@ const municipalitiesData = [
             "2015": 0.349,
             "2019": 0.332
         },
+        "crimeRate": {
+            "2013": 26.7,
+            "2014": 21.6
+        },
         "schoolInfo": {
             "2015": {
                 "socialIndex": 102.8,
@@ -3395,6 +3615,10 @@ const municipalitiesData = [
             "2011": 0.314,
             "2015": 0.301,
             "2019": 0.266
+        },
+        "crimeRate": {
+            "2013": 25.1,
+            "2014": 22
         },
         "schoolInfo": {
             "2015": {
@@ -3457,6 +3681,10 @@ const municipalitiesData = [
             "2015": 0.378,
             "2019": 0.373
         },
+        "crimeRate": {
+            "2013": 32.4,
+            "2014": 37.4
+        },
         "schoolInfo": {
             "2015": {
                 "socialIndex": 102.3,
@@ -3517,6 +3745,10 @@ const municipalitiesData = [
             "2011": 0.366,
             "2015": 0.385,
             "2019": 0.348
+        },
+        "crimeRate": {
+            "2013": 35.3,
+            "2014": 30.1
         },
         "schoolInfo": {
             "2015": {
@@ -3579,6 +3811,10 @@ const municipalitiesData = [
             "2015": 0.341,
             "2019": 0.3
         },
+        "crimeRate": {
+            "2013": 46.1,
+            "2014": 43.8
+        },
         "schoolInfo": {
             "2015": {
                 "socialIndex": 101.9,
@@ -3639,6 +3875,10 @@ const municipalitiesData = [
             "2011": 0.417,
             "2015": 0.439,
             "2019": 0.42
+        },
+        "crimeRate": {
+            "2013": 42.7,
+            "2014": 40.8
         },
         "schoolInfo": {
             "2015": {
@@ -3701,6 +3941,10 @@ const municipalitiesData = [
             "2015": 0.411,
             "2019": 0.362
         },
+        "crimeRate": {
+            "2013": 20,
+            "2014": 14.6
+        },
         "schoolInfo": {
             "2015": {
                 "socialIndex": 102.1,
@@ -3761,6 +4005,10 @@ const municipalitiesData = [
             "2011": 0.449,
             "2015": 0.491,
             "2019": 0.441
+        },
+        "crimeRate": {
+            "2013": 13.8,
+            "2014": 19.9
         },
         "schoolInfo": {
             "2015": {
@@ -3823,6 +4071,10 @@ const municipalitiesData = [
             "2015": 0.391,
             "2019": 0.352
         },
+        "crimeRate": {
+            "2013": 26.5,
+            "2014": 24.1
+        },
         "schoolInfo": {
             "2015": {
                 "socialIndex": 107.8,
@@ -3884,6 +4136,10 @@ const municipalitiesData = [
             "2015": 0.315,
             "2019": 0.288
         },
+        "crimeRate": {
+            "2013": 43.1,
+            "2014": 44.9
+        },
         "schoolInfo": {
             "2015": {
                 "socialIndex": 107.6,
@@ -3899,7 +4155,7 @@ const municipalitiesData = [
             },
             "2018": {
                 "socialIndex": 106.8,
-                "proceededToGymnasium": 0
+                "proceededToGymnasium": 0.331
             }
         }
     },
@@ -3944,6 +4200,10 @@ const municipalitiesData = [
             "2011": 0.53,
             "2015": 0.576,
             "2019": 0.536
+        },
+        "crimeRate": {
+            "2013": 50,
+            "2014": 34.5
         },
         "schoolInfo": {
             "2015": {
@@ -4006,6 +4266,10 @@ const municipalitiesData = [
             "2015": 0.5,
             "2019": 0.484
         },
+        "crimeRate": {
+            "2013": 6.2,
+            "2014": 14.5
+        },
         "schoolInfo": {
             "2015": {
                 "socialIndex": 101.9,
@@ -4066,6 +4330,10 @@ const municipalitiesData = [
             "2011": 0.369,
             "2015": 0.461,
             "2019": 0.428
+        },
+        "crimeRate": {
+            "2013": 64,
+            "2014": 48.8
         },
         "schoolInfo": {
             "2015": {
@@ -4128,6 +4396,10 @@ const municipalitiesData = [
             "2015": 0.537,
             "2019": 0.522
         },
+        "crimeRate": {
+            "2013": 62.8,
+            "2014": 38.2
+        },
         "schoolInfo": {
             "2015": {
                 "socialIndex": 106.5,
@@ -4188,6 +4460,10 @@ const municipalitiesData = [
             "2011": 0.341,
             "2015": 0.359,
             "2019": 0.324
+        },
+        "crimeRate": {
+            "2013": 60,
+            "2014": 45.7
         },
         "schoolInfo": {
             "2015": {
@@ -4250,6 +4526,10 @@ const municipalitiesData = [
             "2015": 0.486,
             "2019": 0.436
         },
+        "crimeRate": {
+            "2013": 28.2,
+            "2014": 31.4
+        },
         "schoolInfo": {
             "2015": {
                 "socialIndex": 102.6,
@@ -4310,6 +4590,10 @@ const municipalitiesData = [
             "2011": 0.26,
             "2015": 0.272,
             "2019": 0.223
+        },
+        "crimeRate": {
+            "2013": 47.3,
+            "2014": 49.4
         },
         "schoolInfo": {
             "2015": {
@@ -4372,6 +4656,10 @@ const municipalitiesData = [
             "2015": 0.426,
             "2019": 0.401
         },
+        "crimeRate": {
+            "2013": 43.7,
+            "2014": 43.5
+        },
         "schoolInfo": {
             "2015": {
                 "socialIndex": 102.3,
@@ -4432,6 +4720,10 @@ const municipalitiesData = [
             "2011": 0.404,
             "2015": 0.435,
             "2019": 0.389
+        },
+        "crimeRate": {
+            "2013": 148.1,
+            "2014": 138.1
         },
         "schoolInfo": {
             "2015": {
@@ -4494,6 +4786,10 @@ const municipalitiesData = [
             "2015": 0.329,
             "2019": 0.323
         },
+        "crimeRate": {
+            "2013": 30.8,
+            "2014": 34.9
+        },
         "schoolInfo": {
             "2015": {
                 "socialIndex": 102.1,
@@ -4554,6 +4850,10 @@ const municipalitiesData = [
             "2011": 0.32,
             "2015": 0.322,
             "2019": 0.281
+        },
+        "crimeRate": {
+            "2013": 43.1,
+            "2014": 42
         },
         "schoolInfo": {
             "2015": {
@@ -4616,6 +4916,10 @@ const municipalitiesData = [
             "2015": 0.332,
             "2019": 0.279
         },
+        "crimeRate": {
+            "2013": 42.9,
+            "2014": 44.2
+        },
         "schoolInfo": {
             "2015": {
                 "socialIndex": 107.7,
@@ -4676,6 +4980,10 @@ const municipalitiesData = [
             "2011": 0.351,
             "2015": 0.397,
             "2019": 0.369
+        },
+        "crimeRate": {
+            "2013": 46.9,
+            "2014": 32.7
         },
         "schoolInfo": {
             "2015": {
@@ -4738,6 +5046,10 @@ const municipalitiesData = [
             "2015": 0.41,
             "2019": 0.399
         },
+        "crimeRate": {
+            "2013": 49.1,
+            "2014": 54.4
+        },
         "schoolInfo": {
             "2015": {
                 "socialIndex": 104.4,
@@ -4798,6 +5110,10 @@ const municipalitiesData = [
             "2011": 0.404,
             "2015": 0.446,
             "2019": 0.447
+        },
+        "crimeRate": {
+            "2013": 25.1,
+            "2014": 36.3
         },
         "schoolInfo": {
             "2015": {
@@ -4860,6 +5176,10 @@ const municipalitiesData = [
             "2015": 0.284,
             "2019": 0.236
         },
+        "crimeRate": {
+            "2013": 29.8,
+            "2014": 28.5
+        },
         "schoolInfo": {
             "2015": {
                 "socialIndex": 102.3,
@@ -4920,6 +5240,10 @@ const municipalitiesData = [
             "2011": 0.485,
             "2015": 0.478,
             "2019": 0.496
+        },
+        "crimeRate": {
+            "2013": 44.2,
+            "2014": 35.7
         },
         "schoolInfo": {
             "2015": {
@@ -4982,6 +5306,10 @@ const municipalitiesData = [
             "2015": 0.434,
             "2019": 0.445
         },
+        "crimeRate": {
+            "2013": 12.5,
+            "2014": 12
+        },
         "schoolInfo": {
             "2015": {
                 "socialIndex": 102.7,
@@ -5042,6 +5370,10 @@ const municipalitiesData = [
             "2011": 0.33,
             "2015": 0.357,
             "2019": 0.318
+        },
+        "crimeRate": {
+            "2013": 33.7,
+            "2014": 28.1
         },
         "schoolInfo": {
             "2015": {
@@ -5104,6 +5436,10 @@ const municipalitiesData = [
             "2015": 0.324,
             "2019": 0.281
         },
+        "crimeRate": {
+            "2013": 35.8,
+            "2014": 39.6
+        },
         "schoolInfo": {
             "2015": {
                 "socialIndex": 103,
@@ -5164,6 +5500,10 @@ const municipalitiesData = [
             "2011": 0.306,
             "2015": 0.357,
             "2019": 0.312
+        },
+        "crimeRate": {
+            "2013": 28.1,
+            "2014": 40.2
         },
         "schoolInfo": {
             "2015": {
@@ -5226,6 +5566,10 @@ const municipalitiesData = [
             "2015": 0.331,
             "2019": 0.33
         },
+        "crimeRate": {
+            "2013": 23.2,
+            "2014": 32.3
+        },
         "schoolInfo": {
             "2015": {
                 "socialIndex": 105.5,
@@ -5286,6 +5630,10 @@ const municipalitiesData = [
             "2011": 0.502,
             "2015": 0.513,
             "2019": 0.492
+        },
+        "crimeRate": {
+            "2013": 14.9,
+            "2014": 41.6
         },
         "schoolInfo": {
             "2015": {
@@ -5348,6 +5696,10 @@ const municipalitiesData = [
             "2015": 0.383,
             "2019": 0.356
         },
+        "crimeRate": {
+            "2013": 39.3,
+            "2014": 32.9
+        },
         "schoolInfo": {
             "2015": {
                 "socialIndex": 102.7,
@@ -5408,6 +5760,10 @@ const municipalitiesData = [
             "2011": 0.478,
             "2015": 0.486,
             "2019": 0.478
+        },
+        "crimeRate": {
+            "2013": 21.8,
+            "2014": 31.6
         },
         "schoolInfo": {
             "2015": {
@@ -5470,6 +5826,10 @@ const municipalitiesData = [
             "2015": 0.473,
             "2019": 0.425
         },
+        "crimeRate": {
+            "2013": 33.6,
+            "2014": 37.5
+        },
         "schoolInfo": {
             "2015": {
                 "socialIndex": 110,
@@ -5530,6 +5890,10 @@ const municipalitiesData = [
             "2011": 0.333,
             "2015": 0.345,
             "2019": 0.322
+        },
+        "crimeRate": {
+            "2013": 33,
+            "2014": 42
         },
         "schoolInfo": {
             "2015": {
@@ -5592,6 +5956,10 @@ const municipalitiesData = [
             "2015": 0.462,
             "2019": 0.447
         },
+        "crimeRate": {
+            "2013": 23.9,
+            "2014": 19.5
+        },
         "schoolInfo": {
             "2015": {
                 "socialIndex": 104.2,
@@ -5652,6 +6020,10 @@ const municipalitiesData = [
             "2011": 0.494,
             "2015": 0.523,
             "2019": 0.513
+        },
+        "crimeRate": {
+            "2013": 9.7,
+            "2014": 12.8
         },
         "schoolInfo": {
             "2015": {
@@ -5714,6 +6086,10 @@ const municipalitiesData = [
             "2015": 0.353,
             "2019": 0.332
         },
+        "crimeRate": {
+            "2013": 50.3,
+            "2014": 51.8
+        },
         "schoolInfo": {
             "2015": {
                 "socialIndex": 114.1,
@@ -5774,6 +6150,10 @@ const municipalitiesData = [
             "2011": 0.419,
             "2015": 0.45,
             "2019": 0.414
+        },
+        "crimeRate": {
+            "2013": 45.7,
+            "2014": 59.8
         },
         "schoolInfo": {
             "2015": {
@@ -5836,6 +6216,10 @@ const municipalitiesData = [
             "2015": 0.29,
             "2019": 0.251
         },
+        "crimeRate": {
+            "2013": 39.8,
+            "2014": 24.5
+        },
         "schoolInfo": {
             "2015": {
                 "socialIndex": 101.5,
@@ -5896,6 +6280,10 @@ const municipalitiesData = [
             "2011": 0.412,
             "2015": 0.447,
             "2019": 0.415
+        },
+        "crimeRate": {
+            "2013": 18.2,
+            "2014": 22.8
         },
         "schoolInfo": {
             "2015": {
@@ -5958,6 +6346,10 @@ const municipalitiesData = [
             "2015": 0.362,
             "2019": 0.337
         },
+        "crimeRate": {
+            "2013": 29.4,
+            "2014": 31.6
+        },
         "schoolInfo": {
             "2015": {
                 "socialIndex": 104.7,
@@ -6018,6 +6410,10 @@ const municipalitiesData = [
             "2011": 0.41,
             "2015": 0.461,
             "2019": 0.427
+        },
+        "crimeRate": {
+            "2013": 54,
+            "2014": 35.2
         },
         "schoolInfo": {
             "2015": {
@@ -6080,6 +6476,10 @@ const municipalitiesData = [
             "2015": 0.455,
             "2019": 0.423
         },
+        "crimeRate": {
+            "2013": 25.9,
+            "2014": 29.8
+        },
         "schoolInfo": {
             "2015": {
                 "socialIndex": 108.7,
@@ -6140,6 +6540,10 @@ const municipalitiesData = [
             "2011": 0.403,
             "2015": 0.399,
             "2019": 0.349
+        },
+        "crimeRate": {
+            "2013": 74.6,
+            "2014": 102.9
         },
         "schoolInfo": {
             "2015": {
@@ -6202,6 +6606,10 @@ const municipalitiesData = [
             "2015": 0.441,
             "2019": 0.406
         },
+        "crimeRate": {
+            "2013": 37.8,
+            "2014": 22.1
+        },
         "schoolInfo": {
             "2015": {
                 "socialIndex": 103.6,
@@ -6262,6 +6670,10 @@ const municipalitiesData = [
             "2011": 0.406,
             "2015": 0.411,
             "2019": 0.371
+        },
+        "crimeRate": {
+            "2013": 79.5,
+            "2014": 76
         },
         "schoolInfo": {
             "2015": {
@@ -6324,6 +6736,10 @@ const municipalitiesData = [
             "2015": 0.349,
             "2019": 0.323
         },
+        "crimeRate": {
+            "2013": 19.8,
+            "2014": 20.9
+        },
         "schoolInfo": {
             "2015": {
                 "socialIndex": 103.6,
@@ -6384,6 +6800,10 @@ const municipalitiesData = [
             "2011": 0.334,
             "2015": 0.33,
             "2019": 0.308
+        },
+        "crimeRate": {
+            "2013": 42.4,
+            "2014": 46.2
         },
         "schoolInfo": {
             "2015": {
@@ -6446,6 +6866,10 @@ const municipalitiesData = [
             "2015": 0.426,
             "2019": 0.378
         },
+        "crimeRate": {
+            "2013": 50.2,
+            "2014": 29.7
+        },
         "schoolInfo": {
             "2015": {
                 "socialIndex": 108.5,
@@ -6506,6 +6930,10 @@ const municipalitiesData = [
             "2011": 0.371,
             "2015": 0.376,
             "2019": 0.365
+        },
+        "crimeRate": {
+            "2013": 48.1,
+            "2014": 47.2
         },
         "schoolInfo": {
             "2015": {
@@ -6568,6 +6996,10 @@ const municipalitiesData = [
             "2015": 0.336,
             "2019": 0.317
         },
+        "crimeRate": {
+            "2013": 18.3,
+            "2014": 14.4
+        },
         "schoolInfo": {
             "2015": {
                 "socialIndex": 107.2,
@@ -6628,6 +7060,10 @@ const municipalitiesData = [
             "2011": 0.457,
             "2015": 0.475,
             "2019": 0.436
+        },
+        "crimeRate": {
+            "2013": 71.4,
+            "2014": 64.5
         },
         "schoolInfo": {
             "2015": {
@@ -6690,6 +7126,10 @@ const municipalitiesData = [
             "2015": 0.305,
             "2019": 0.33
         },
+        "crimeRate": {
+            "2013": 33.5,
+            "2014": 24.9
+        },
         "schoolInfo": {
             "2015": {
                 "socialIndex": 103.6,
@@ -6750,6 +7190,10 @@ const municipalitiesData = [
             "2011": 0.315,
             "2015": 0.354,
             "2019": 0.292
+        },
+        "crimeRate": {
+            "2013": 31.5,
+            "2014": 32.6
         },
         "schoolInfo": {
             "2015": {
@@ -6812,6 +7256,10 @@ const municipalitiesData = [
             "2015": 0.399,
             "2019": 0.384
         },
+        "crimeRate": {
+            "2013": 31,
+            "2014": 21.4
+        },
         "schoolInfo": {
             "2015": {
                 "socialIndex": 103,
@@ -6872,6 +7320,10 @@ const municipalitiesData = [
             "2011": 0.285,
             "2015": 0.305,
             "2019": 0.268
+        },
+        "crimeRate": {
+            "2013": 16.7,
+            "2014": 20.9
         },
         "schoolInfo": {
             "2015": {
@@ -6934,6 +7386,10 @@ const municipalitiesData = [
             "2015": 0.395,
             "2019": 0.387
         },
+        "crimeRate": {
+            "2013": 53.6,
+            "2014": 38.3
+        },
         "schoolInfo": {
             "2015": {
                 "socialIndex": 106.4,
@@ -6994,6 +7450,10 @@ const municipalitiesData = [
             "2011": 0.441,
             "2015": 0.47,
             "2019": 0.416
+        },
+        "crimeRate": {
+            "2013": 81.6,
+            "2014": 72.2
         },
         "schoolInfo": {
             "2015": {
@@ -7056,6 +7516,10 @@ const municipalitiesData = [
             "2015": 0.293,
             "2019": 0.24
         },
+        "crimeRate": {
+            "2013": 60.5,
+            "2014": 47.9
+        },
         "schoolInfo": {
             "2015": {
                 "socialIndex": 103.9,
@@ -7116,6 +7580,10 @@ const municipalitiesData = [
             "2011": 0.401,
             "2015": 0.428,
             "2019": 0.403
+        },
+        "crimeRate": {
+            "2013": 22.3,
+            "2014": 25.7
         },
         "schoolInfo": {
             "2015": {
@@ -7178,6 +7646,10 @@ const municipalitiesData = [
             "2015": 0.314,
             "2019": 0.301
         },
+        "crimeRate": {
+            "2013": 46.6,
+            "2014": 39.2
+        },
         "schoolInfo": {
             "2015": {
                 "socialIndex": 111.5,
@@ -7238,6 +7710,10 @@ const municipalitiesData = [
             "2011": 0.39,
             "2015": 0.469,
             "2019": 0.427
+        },
+        "crimeRate": {
+            "2013": 31.2,
+            "2014": 16.3
         },
         "schoolInfo": {
             "2015": {
@@ -7300,6 +7776,10 @@ const municipalitiesData = [
             "2015": 0.442,
             "2019": 0.435
         },
+        "crimeRate": {
+            "2013": 5.6,
+            "2014": 11.3
+        },
         "schoolInfo": {
             "2015": {
                 "socialIndex": 103.2,
@@ -7360,6 +7840,10 @@ const municipalitiesData = [
             "2011": 0.331,
             "2015": 0.324,
             "2019": 0.28
+        },
+        "crimeRate": {
+            "2013": 84.5,
+            "2014": 70.9
         },
         "schoolInfo": {
             "2015": {
@@ -7422,6 +7906,10 @@ const municipalitiesData = [
             "2015": 0.427,
             "2019": 0.395
         },
+        "crimeRate": {
+            "2013": 29.8,
+            "2014": 30.1
+        },
         "schoolInfo": {
             "2015": {
                 "socialIndex": 102,
@@ -7482,6 +7970,10 @@ const municipalitiesData = [
             "2011": 0.26,
             "2015": 0.3,
             "2019": 0.272
+        },
+        "crimeRate": {
+            "2013": 65.4,
+            "2014": 60.9
         },
         "schoolInfo": {
             "2015": {
@@ -7544,6 +8036,10 @@ const municipalitiesData = [
             "2015": 0.335,
             "2019": 0.344
         },
+        "crimeRate": {
+            "2013": 24.5,
+            "2014": 47.3
+        },
         "schoolInfo": {
             "2015": {
                 "socialIndex": 109.2,
@@ -7604,6 +8100,10 @@ const municipalitiesData = [
             "2011": 0.385,
             "2015": 0.404,
             "2019": 0.366
+        },
+        "crimeRate": {
+            "2013": 46.4,
+            "2014": 44.7
         },
         "schoolInfo": {
             "2015": {
@@ -7666,6 +8166,10 @@ const municipalitiesData = [
             "2015": 0.532,
             "2019": 0.521
         },
+        "crimeRate": {
+            "2013": 31.8,
+            "2014": 24.6
+        },
         "schoolInfo": {
             "2015": {
                 "socialIndex": 103.1,
@@ -7726,6 +8230,10 @@ const municipalitiesData = [
             "2011": 0.288,
             "2015": 0.283,
             "2019": 0.251
+        },
+        "crimeRate": {
+            "2013": 35,
+            "2014": 35
         },
         "schoolInfo": {
             "2015": {
@@ -7788,6 +8296,10 @@ const municipalitiesData = [
             "2015": 0.405,
             "2019": 0.356
         },
+        "crimeRate": {
+            "2013": 51.4,
+            "2014": 28.8
+        },
         "schoolInfo": {
             "2015": {
                 "socialIndex": 100.8,
@@ -7848,6 +8360,10 @@ const municipalitiesData = [
             "2011": 0.374,
             "2015": 0.417,
             "2019": 0.387
+        },
+        "crimeRate": {
+            "2013": 27.4,
+            "2014": 18.5
         },
         "schoolInfo": {
             "2015": {
@@ -7910,6 +8426,10 @@ const municipalitiesData = [
             "2015": 0.54,
             "2019": 0.547
         },
+        "crimeRate": {
+            "2013": 28.9,
+            "2014": 17.5
+        },
         "schoolInfo": {
             "2015": {
                 "socialIndex": 103,
@@ -7970,6 +8490,10 @@ const municipalitiesData = [
             "2011": 0.241,
             "2015": 0.257,
             "2019": 0.223
+        },
+        "crimeRate": {
+            "2013": 47.3,
+            "2014": 39.5
         },
         "schoolInfo": {
             "2015": {
@@ -8032,6 +8556,10 @@ const municipalitiesData = [
             "2015": 0.5,
             "2019": 0.492
         },
+        "crimeRate": {
+            "2013": 23.3,
+            "2014": 19.1
+        },
         "schoolInfo": {
             "2015": {
                 "socialIndex": 103.2,
@@ -8092,6 +8620,10 @@ const municipalitiesData = [
             "2011": 0.379,
             "2015": 0.403,
             "2019": 0.425
+        },
+        "crimeRate": {
+            "2013": 6.5,
+            "2014": 8.9
         },
         "schoolInfo": {
             "2015": {
@@ -8154,6 +8686,10 @@ const municipalitiesData = [
             "2015": 0.461,
             "2019": 0.43
         },
+        "crimeRate": {
+            "2013": 46.7,
+            "2014": 39.3
+        },
         "schoolInfo": {
             "2015": {
                 "socialIndex": 110.5,
@@ -8214,6 +8750,10 @@ const municipalitiesData = [
             "2011": 0.308,
             "2015": 0.319,
             "2019": 0.299
+        },
+        "crimeRate": {
+            "2013": 28.7,
+            "2014": 19.8
         },
         "schoolInfo": {
             "2015": {
@@ -8276,6 +8816,10 @@ const municipalitiesData = [
             "2015": 0.33,
             "2019": 0.281
         },
+        "crimeRate": {
+            "2013": 42.3,
+            "2014": 44.8
+        },
         "schoolInfo": {
             "2015": {
                 "socialIndex": 100.1,
@@ -8336,6 +8880,10 @@ const municipalitiesData = [
             "2011": 0.434,
             "2015": 0.42,
             "2019": 0.385
+        },
+        "crimeRate": {
+            "2013": 65.9,
+            "2014": 51.8
         },
         "schoolInfo": {
             "2015": {
@@ -8398,6 +8946,10 @@ const municipalitiesData = [
             "2015": 0.38,
             "2019": 0.371
         },
+        "crimeRate": {
+            "2013": 20.7,
+            "2014": 15.9
+        },
         "schoolInfo": {
             "2015": {
                 "socialIndex": 105.7,
@@ -8458,6 +9010,10 @@ const municipalitiesData = [
             "2011": 0.341,
             "2015": 0.371,
             "2019": 0.329
+        },
+        "crimeRate": {
+            "2013": 58.6,
+            "2014": 54.5
         },
         "schoolInfo": {
             "2015": {
@@ -8520,6 +9076,10 @@ const municipalitiesData = [
             "2015": 0.277,
             "2019": 0.246
         },
+        "crimeRate": {
+            "2013": 51.4,
+            "2014": 49.2
+        },
         "schoolInfo": {
             "2015": {
                 "socialIndex": 105.5,
@@ -8580,6 +9140,10 @@ const municipalitiesData = [
             "2011": 0.51,
             "2015": 0.564,
             "2019": 0.5
+        },
+        "crimeRate": {
+            "2013": 19.4,
+            "2014": 22.9
         },
         "schoolInfo": {
             "2015": {
@@ -8642,6 +9206,10 @@ const municipalitiesData = [
             "2015": 0.456,
             "2019": 0.424
         },
+        "crimeRate": {
+            "2013": 61.7,
+            "2014": 47.1
+        },
         "schoolInfo": {
             "2015": {
                 "socialIndex": 107.7,
@@ -8702,6 +9270,10 @@ const municipalitiesData = [
             "2011": 0.299,
             "2015": 0.31,
             "2019": 0.293
+        },
+        "crimeRate": {
+            "2013": 46.5,
+            "2014": 39.3
         },
         "schoolInfo": {
             "2015": {
@@ -8764,6 +9336,10 @@ const municipalitiesData = [
             "2015": 0.383,
             "2019": 0.357
         },
+        "crimeRate": {
+            "2013": 35.6,
+            "2014": 26.4
+        },
         "schoolInfo": {
             "2015": {
                 "socialIndex": 110.2,
@@ -8824,6 +9400,10 @@ const municipalitiesData = [
             "2011": 0.327,
             "2015": 0.351,
             "2019": 0.304
+        },
+        "crimeRate": {
+            "2013": 101.6,
+            "2014": 84.3
         },
         "schoolInfo": {
             "2015": {
@@ -8886,6 +9466,10 @@ const municipalitiesData = [
             "2015": 0.412,
             "2019": 0.361
         },
+        "crimeRate": {
+            "2013": 40.9,
+            "2014": 39
+        },
         "schoolInfo": {
             "2015": {
                 "socialIndex": 107.7,
@@ -8946,6 +9530,10 @@ const municipalitiesData = [
             "2011": 0.512,
             "2015": 0.525,
             "2019": 0.468
+        },
+        "crimeRate": {
+            "2013": 42,
+            "2014": 3.5
         },
         "schoolInfo": {
             "2015": {
@@ -9008,6 +9596,10 @@ const municipalitiesData = [
             "2015": 0.567,
             "2019": 0.556
         },
+        "crimeRate": {
+            "2013": 24.9,
+            "2014": 40.9
+        },
         "schoolInfo": {
             "2015": {
                 "socialIndex": 103.9,
@@ -9068,6 +9660,10 @@ const municipalitiesData = [
             "2011": 0.433,
             "2015": 0.468,
             "2019": 0.41
+        },
+        "crimeRate": {
+            "2013": 57.8,
+            "2014": 53.2
         },
         "schoolInfo": {
             "2015": {
@@ -9130,6 +9726,10 @@ const municipalitiesData = [
             "2015": 0.421,
             "2019": 0.418
         },
+        "crimeRate": {
+            "2013": 36.5,
+            "2014": 17.8
+        },
         "schoolInfo": {
             "2015": {
                 "socialIndex": 103.2,
@@ -9190,6 +9790,10 @@ const municipalitiesData = [
             "2011": 0.295,
             "2015": 0.321,
             "2019": 0.284
+        },
+        "crimeRate": {
+            "2013": 43.5,
+            "2014": 36.8
         },
         "schoolInfo": {
             "2015": {
@@ -9252,6 +9856,10 @@ const municipalitiesData = [
             "2015": 0.339,
             "2019": 0.304
         },
+        "crimeRate": {
+            "2013": 53.5,
+            "2014": 50.3
+        },
         "schoolInfo": {
             "2015": {
                 "socialIndex": 110.4,
@@ -9312,6 +9920,10 @@ const municipalitiesData = [
             "2011": 0.393,
             "2015": 0.417,
             "2019": 0.39
+        },
+        "crimeRate": {
+            "2013": 37.3,
+            "2014": 26.3
         },
         "schoolInfo": {
             "2015": {
@@ -9374,6 +9986,10 @@ const municipalitiesData = [
             "2015": 0.441,
             "2019": 0.438
         },
+        "crimeRate": {
+            "2013": 22.3,
+            "2014": 15.2
+        },
         "schoolInfo": {
             "2015": {
                 "socialIndex": 102.4,
@@ -9434,6 +10050,10 @@ const municipalitiesData = [
             "2011": 0.526,
             "2015": 0.545,
             "2019": 0.494
+        },
+        "crimeRate": {
+            "2013": 38,
+            "2014": 45.9
         },
         "schoolInfo": {
             "2015": {
@@ -9496,6 +10116,10 @@ const municipalitiesData = [
             "2015": 0.503,
             "2019": 0.464
         },
+        "crimeRate": {
+            "2013": 10.9,
+            "2014": 14.2
+        },
         "schoolInfo": {
             "2015": {
                 "socialIndex": 106.7,
@@ -9557,6 +10181,10 @@ const municipalitiesData = [
             "2015": 0.449,
             "2019": 0.389
         },
+        "crimeRate": {
+            "2013": 17.9,
+            "2014": 26.2
+        },
         "schoolInfo": {
             "2015": {
                 "socialIndex": 107.2,
@@ -9617,6 +10245,10 @@ const municipalitiesData = [
             "2011": 0.223,
             "2015": 0.234,
             "2019": 0.178
+        },
+        "crimeRate": {
+            "2013": 81.9,
+            "2014": 71.6
         },
         "schoolInfo": {
             "2015": [
@@ -9751,6 +10383,10 @@ const municipalitiesData = [
             "2015": 0.398,
             "2019": 0.343
         },
+        "crimeRate": {
+            "2013": 42.3,
+            "2014": 25.7
+        },
         "schoolInfo": {
             "2015": {
                 "socialIndex": 111.6,
@@ -9811,6 +10447,10 @@ const municipalitiesData = [
             "2011": 0.257,
             "2015": 0.254,
             "2019": 0.221
+        },
+        "crimeRate": {
+            "2013": 43.2,
+            "2014": 38.5
         },
         "schoolInfo": {
             "2015": {
@@ -9873,6 +10513,10 @@ const municipalitiesData = [
             "2015": 0.298,
             "2019": 0.279
         },
+        "crimeRate": {
+            "2013": 40.1,
+            "2014": 32.9
+        },
         "schoolInfo": {
             "2015": {
                 "socialIndex": 101,
@@ -9933,6 +10577,10 @@ const municipalitiesData = [
             "2011": 0.187,
             "2015": 0.181,
             "2019": 0.137
+        },
+        "crimeRate": {
+            "2013": 137.7,
+            "2014": 123.8
         },
         "schoolInfo": {
             "2015": [

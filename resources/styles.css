@@ -3,6 +3,10 @@
     line-height: 23px;
 }
 
+.legend-title {
+    margin-top: 0px;
+}
+
 .value {
     white-space: nowrap;
     line-height: 22px;
@@ -26,7 +30,7 @@
 
 body {
     background-color: #fbfafa;
-    font-family: Garamond;
+    font-family: 'Garamond';
 }
 
 #legend {
@@ -43,4 +47,42 @@ body {
 #container {
     display: flex;
     margin: 20px 10px;
+}
+
+.question-mark {
+    vertical-align: top;
+    margin-top: 2px;
+    width: 7px;
+    height: 7px;
+}
+
+#filterIcon {
+    width: 20px;
+    height: 20px;
+}
+
+#filterContainer {
+    height: 100px;
+    display: flex;
+}
+
+#filterContainer:hover #filterContent {
+    visibility: visible;
+}
+
+#filterContent {
+    visibility: hidden;
+    padding: 20px 25px;
+    margin-left: 20px;
+    border: 1px solid;
+    font-size: 15px;
+    position: absolute;
+    z-index: 1;
+    background: #fbfafa;
+}
+
+#filterContent span {
+    width: 330px;
+    white-space: nowrap;
+    text-align: center;
 }
