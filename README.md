@@ -1,4 +1,4 @@
-# serebrianyi.github.io
+# zuri-stats.github.io
 
 Sources:
 
