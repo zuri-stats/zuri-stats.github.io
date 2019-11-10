@@ -373,14 +373,16 @@ initSlider("income", Math.min.apply(Math, _toConsumableArray(municipalitiesData.
   return m.income[2018];
 }))) + 1); //school info
 
+"use strict";
+
 var collectValues = function collectValues(extractFn) {
   return municipalitiesData.map(function (m) {
     return isZuerichOrWinterthur(m) ? m.schoolInfo[2018].map(function (i) {
       return extractFn(i);
     }) : [extractFn(m.schoolInfo[2018])];
   }).reduce(function (acc, val) {
-      return acc.concat(val);
-    }, [])();
+    return acc.concat(val);
+  }, []);
 };
 
 initSlider("socialIndex", Math.min.apply(Math, _toConsumableArray(collectValues(function (i) {
