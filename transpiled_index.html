@@ -378,7 +378,9 @@ var collectValues = function collectValues(extractFn) {
     return isZuerichOrWinterthur(m) ? m.schoolInfo[2018].map(function (i) {
       return extractFn(i);
     }) : [extractFn(m.schoolInfo[2018])];
-  }).reduce((acc, val) => acc.concat(val), [])();
+  })..reduce(function (acc, val) {
+      return acc.concat(val);
+    }, [])();
 };
 
 initSlider("socialIndex", Math.min.apply(Math, _toConsumableArray(collectValues(function (i) {
