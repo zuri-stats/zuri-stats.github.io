@@ -378,7 +378,7 @@ var collectValues = function collectValues(extractFn) {
     return isZuerichOrWinterthur(m) ? m.schoolInfo[2018].map(function (i) {
       return extractFn(i);
     }) : [extractFn(m.schoolInfo[2018])];
-  })..reduce(function (acc, val) {
+  }).reduce(function (acc, val) {
       return acc.concat(val);
     }, [])();
 };
