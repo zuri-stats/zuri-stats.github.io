@@ -64,6 +64,7 @@ body {
 #filterContainer {
     height: 100px;
     display: flex;
+    width: 50px;
 }
 
 #filterContainer:hover #filterContent {
